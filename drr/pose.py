@@ -6,6 +6,7 @@ __all__ = ['RigidTransform', 'convert', 'rotation_9d_to_matrix', 'matrix_to_rota
 
 # %% ../notebooks/api/06_pose.ipynb 6
 import torch
+import math
 
 from einops import rearrange
 
